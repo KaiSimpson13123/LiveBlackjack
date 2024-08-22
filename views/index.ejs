@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Blackjack</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Live Blackjack</h1>
+        <div id="dealer">
+            <h2>Dealer</h2>
+            <div id="dealer-hand"></div>
+        </div>
+        <div id="players">
+            <h2>Players</h2>
+            <div id="player-hands"></div>
+        </div>
+        <div id="controls">
+            <button id="hit">Hit</button>
+            <button id="stand">Stand</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

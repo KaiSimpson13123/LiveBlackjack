@@ -1,0 +1,15 @@
+{
+    "name": "blackjack-game",
+    "version": "1.0.0",
+    "description": "Live Blackjack game with a robot dealer and 5 player support",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "socket.io": "^4.5.3",
+      "ejs": "^3.1.9"
+    }
+  }
+  
